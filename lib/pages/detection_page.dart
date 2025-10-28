@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'dart:math'; // For Point, max/min
 
-// Ensure these paths are correct
 import 'package:yolo/utils/image_utils.dart';
 import '../services/yolo11_detector.dart';
 import '../models/detection_result.dart';
@@ -363,7 +362,7 @@ class _DetectionPageState extends State<DetectionPage>
   }
 }
 
-// --- Detection Painter (Unchanged from previous answer) ---
+// --- Detection Painter
 class _DetectionPainter extends CustomPainter {
   final List<Detection> detections;
   final Size previewSize;
