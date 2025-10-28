@@ -265,7 +265,7 @@ class Yolo11Detector {
       Size originalPreviewSize,
       double confidenceThreshold,
       double iouThreshold) {
-    // ... (This function remains as a fallback, but is less likely to be correct)
+    
     print("Executing fallback flat parse...");
     List<double> floats;
     const int numAttrs = 85; // Assumes xywh + CONF + 80 classes
