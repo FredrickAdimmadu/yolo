@@ -1,0 +1,2 @@
+-keep class org.tensorflow.lite.gpu.** { *; }
+-keep interface org.tensorflow.lite.gpu.** { *; }
